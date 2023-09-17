@@ -15,22 +15,10 @@ export const ConnectItem = styled('div', {
   padding: '$4 $6',
   borderRadius: '$md',
 
-  marginBotton: '$2',
+  marginBotton: '$4',
 })
 
-export const Form = styled(Box, {
-  marginTop: '$6',
-  display: 'flex',
-  flexDirection: 'column',
-  gap: '$4',
-
-  label: {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '$2',
-  },
-})
-
-export const FormError = styled(Text, {
+export const AuthError = styled(Text, {
   color: '#f75a68',
+  marginBottom: '$4',
 })
