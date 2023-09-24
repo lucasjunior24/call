@@ -3,33 +3,15 @@ import { Button, Heading, MultiStep, Text } from '@ignite-ui/react'
 import { signIn, useSession } from 'next-auth/react'
 import {
   AuthError,
-  // Form,
-  // FormError,
   ConnectBox,
   ConnectItem,
 } from './styles'
 
-// import { AxiosError } from 'axios'
 import { ArrowRight, Check } from 'phosphor-react'
 import { Container, Header } from '../styles'
 import { useRouter } from 'next/router'
 
-export default function Register() {
-  // async function handleRegister(data: RegisterFormData) {
-  //   try {
-  //     await api.post('/users', {
-  //       name: data.name,
-  //       username: data.username,
-  //     })
-  //   } catch (err) {
-  //     if (err instanceof AxiosError && err.response?.data?.message) {
-  //       alert(err.response.data.message)
-  //       return
-  //     }
-  //     console.log(err)
-  //   }
-  // }
-
+export default function ConnectCalendar() {
   const session = useSession()
   const router = useRouter()
 
